@@ -1,0 +1,8 @@
+console.log("123" + 4)
+console.log(typeof ("123" + 4))
+console.log()
+console.log("30" - 20)
+console.log(typeof ("30" - 20))
+console.log()
+console.log("André" * 3)
+console.log(typeof ("André" * 3))
