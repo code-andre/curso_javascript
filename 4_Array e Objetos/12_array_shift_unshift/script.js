@@ -1,5 +1,5 @@
-//Push - Inserir elemento em array no inicio
-//Pop - Remove o elemento do array no inicio
+//shift - Inserir elemento em array no inicio
+//unshift - Remove o elemento do array no inicio
 
 let carros = ["BMW", "Audi", "VW", "Fiat"];
 
