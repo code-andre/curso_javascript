@@ -15,7 +15,7 @@ function reduzTempo(qtdCigarros /*qtdAnos*/){
     //1 cigarro = (-10min)
     //Pega a quantidade de cigarros, multiplica por 10 e divide por 1440(1dia)
     //Calcula a quantidade de dias
-    let minVida = 10
+    let minVida = 144000
     let minutosDeVidaPerdido = qtdCigarros * minVida
     let diasDeVidaPerdido = (minutosDeVidaPerdido / 1440)
 
