@@ -44,4 +44,16 @@ Operadores matemáticos são símbolos que indicam a execução de uma operaçã
 
 *   **Descrição:** Retorna o **resto** da divisão inteira do número da esquerda pelo número da direita.
 *   **Exemplo:** `8 % 3` → `2`  
-    _(Quando dividimos 8 por 3, sobra 2 - 2 é o resultado)_
+    _(Quando dividimos 8 por 3, sobra 2 | 2 é o módulo)_
+
+---
+
+## **🧑‍💻 Explicação dos Elementos do Código**
+
+**typeof:** Operador que mostra qual é o tipo do valor, como número, texto ou verdadeiro/falso.
+
+**template string:** Texto especial entre crases (`` ` ``) que permite colocar valores e cálculos dentro usando `${}`, facilitando escrever mensagens completas.
+
+**console.log:** Comando que mostra mensagens ou resultados no console para a gente ver o que está acontecendo no programa.
+
+**\\n (quebra de linha):** Código que faz o texto pular para a linha de baixo, deixando a mensagem mais organizada.
