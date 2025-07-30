@@ -1,15 +1,36 @@
-//Todos os tipos de operações originam Numbers
+console.log('Todos os tipos de operações originam Number\n');
 
-console.log(typeof(2 + 3));
-console.log(typeof(5 - 12));
-console.log(typeof(4 * 4));
-console.log(typeof(5 / 3));
-console.log(typeof(20 % 2));
-console.log(typeof(21 % 2));
+console.log('OPERAÇÃO DE SOMA');
+console.log(
+    `Operação: 2 + 3
+Resultado: ${2 + 3}
+Tipo de: ${typeof (2 + 3)}\n`
+);
 
-console.log(2 + 3);
-console.log(5 - 12);
-console.log(4 * 4);
-console.log(5 / 3);
-console.log(20 % 2);
-console.log(21 % 2);
+console.log('OPERAÇÃO DE SUBTRAÇÃO');
+console.log(
+    `Operação: 5 - 12
+Resultado: ${5 - 12}
+Tipo de: ${typeof (5 - 12)}\n`
+);
+
+console.log('OPERAÇÃO DE MULTIPLICAÇÃO');
+console.log(
+    `Operação: 4 * 4
+Resultado: ${4 * 4}
+Tipo de: ${typeof (4 * 4)}\n`
+);
+
+console.log('OPERAÇÃO DE DIVISÃO');
+console.log(
+    `Operação: 5 / 3
+Resultado: ${5 / 3}
+Tipo de: ${typeof (5 / 3)}\n`
+);
+
+console.log('OPERAÇÃO DE MÓDULO (RESTO DA DIVISÃO)');
+console.log(
+    `Operação: 21 % 2
+Resultado: ${21 % 2}
+Tipo de: ${typeof (21 % 2)}\n`
+);
