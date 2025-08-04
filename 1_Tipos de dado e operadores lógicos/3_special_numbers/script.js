@@ -1,7 +1,11 @@
-console.log(Infinity);
-console.log(-Infinity);
-console.log(NaN);
+console.log('SPECIAL NUMBERS - JavaScript\n');
 
-console.log(typeof(Infinity));
-console.log(typeof(-Infinity));
-console.log(typeof(NaN));
+console.log(`Special Number infinito: ${Infinity}`);
+console.log(`Special Numeber infinito negativo: ${-Infinity}`);
+console.log(`Special Number NaN: ${NaN}`);
+
+console.log('\n')
+
+console.log(`Tipo de Infinity: ${typeof(Infinity)}`);
+console.log(`Tipo de -Infinity: ${typeof(Infinity)}`);
+console.log(`Tipo de NaN: ${typeof(NaN)}`);
